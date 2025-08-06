@@ -4,7 +4,7 @@ import pandas as pd
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = '8225520099:AAHLhMlqZvnQTWW7H8pj9SoAcIcCDhr0kbE'  # Replace this
+BOT_TOKEN = '8357489900:AAE4fa2z-Nlm6JT36SjBGNmT5JMIBmA7wks'  # Replace this
 
 logging.basicConfig(level=logging.INFO)
 
@@ -76,3 +76,4 @@ app = ApplicationBuilder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("sr", support_resistance))
 print("Bot running...")
 app.run_polling()
+
