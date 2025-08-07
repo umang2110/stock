@@ -19,7 +19,7 @@ def run_flask():
 # Start Flask in background
 Thread(target=run_flask).start()
 
-BOT_TOKEN = '8225520099:AAHLhMlqZvnQTWW7H8pj9SoAcIcCDhr0kbE'  # Replace this
+BOT_TOKEN = '8357489900:AAE4fa2z-Nlm6JT36SjBGNmT5JMIBmA7wks'  # Replace this
 
 logging.basicConfig(level=logging.INFO)
 
